@@ -1,0 +1,10 @@
+.newsnavbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    cursor: pointer;
+}

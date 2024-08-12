@@ -1,0 +1,38 @@
+.navbar{
+    background-color: white;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-top: 2px;
+   
+}
+.menu-icon{
+    color: solid black;
+}
+mat-form-field{
+    width: 600px;
+    height: 50px;
+    
+}
+.box3{
+    display: flex ;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.logo{
+    height: 55px;
+    width: 100px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg);
+    background-size: cover;
+}
+img{
+    
+    background-size: cover;
+}
+
+mat-toolbar{
+   
+    height: 56px;
+    margin-bottom: 10px;
+} 

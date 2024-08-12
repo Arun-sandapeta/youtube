@@ -1,0 +1,47 @@
+<!-- navbar.component.html -->
+<mat-toolbar color="primary" class="navbar">
+    <div class="navbarlogo">
+    <button mat-icon-button class="menu-icon" aria-label="Toggle navigation">
+      <mat-icon style="color: black;">menu</mat-icon>
+    </button>
+  
+    <a mat-button routerLink="/" class="navbar-logo">
+      <div class="logo">
+        
+      </div>
+    </a>
+</div>
+  
+    <div class="search-container">
+      <mat-form-field appearance="outline" class="search-field">
+        <input matInput placeholder="Search" />
+        <button mat-icon-button matSuffix aria-label="Search">
+          <mat-icon style="color: black;">search</mat-icon>
+        </button>
+      </mat-form-field>
+    </div>
+  
+    <span class="spacer"></span>
+
+    <div class="box3">
+  
+    <button mat-icon-button aria-label="Upload video">
+      <mat-icon style="color: black;">mic</mat-icon>
+    </button>
+
+    <div class="options">
+    <button mat-icon-button aria-label="YouTube apps">
+      <mat-icon style="color: black;">apps</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Notifications">
+      <mat-icon style="color: black;">notifications</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="User profile">
+      <!-- <img class="profile-pic" src="" alt="Profile" /> -->
+     <mat-icon style="color: black;">person</mat-icon>
+    </button>
+</div>
+</div>
+  </mat-toolbar>
+  
+  

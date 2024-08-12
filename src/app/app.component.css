@@ -1,0 +1,11 @@
+.app-sidebar{
+    
+    margin-top: 10px;
+   
+    height: 100vh;
+    width: 180px !important;
+    
+}
+.sidebar{
+    display: flex;
+}

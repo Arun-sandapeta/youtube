@@ -1,0 +1,13 @@
+.nationalNews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+video{
+    height: 160px;
+    width: 320px;
+}
+video :hover{
+    cursor: pointer;
+    
+}
